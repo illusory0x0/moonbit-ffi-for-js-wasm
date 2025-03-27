@@ -1,0 +1,12 @@
+{
+  "link": {
+    "js": {
+      "exports": ["hello"],
+      "format": "esm"
+    },
+    "wasm-gc": {
+      "exports": ["hello"],
+      "use-js-builtin-string": true
+    }
+  }
+}
