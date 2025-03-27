@@ -4,9 +4,11 @@
       "exports": ["hello"],
       "format": "esm"
     },
+    "wasm": {
+      "exports": ["hello"]
+    },
     "wasm-gc": {
-      "exports": ["hello"],
-      "use-js-builtin-string": true
+      "exports": ["hello"]
     }
   }
 }
